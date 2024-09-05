@@ -4,19 +4,12 @@ header {
     margin-top: 92px;
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 96px;
     background-color: aqua;
     display: flex;                          /* ФЛЕКС КОНТЕЙНЕР */
     flex-direction: row;
     align-items: center;
     align-content: center;
-}
-
-.image-container {
-    display: block;
-    background-image: url("../images/cover.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    min-height: 757px;
 }
 
 .header__menu {
@@ -43,3 +36,92 @@ header {
     display: inline;
 }
 
+
+
+/* ОНО ТЕБЕ НАДО */
+
+
+
+.landing__page {
+    display: flex;
+    position: relative;
+    min-height: 757px;
+    width: 1100px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    background-size: cover;
+    height: 757px;
+    width: 1100px;
+    background-color: rgb(0 0 0 / 0.6);
+}
+
+.cover__title {
+    height: 355px;
+    width: 1000px;
+    z-index: 2;
+    display: block;
+    position: relative;
+    top: 165px;
+    right: 50px;
+    bottom: 237px;
+    left: 50px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.cover__title__span {
+    background: transparent;
+    letter-spacing
+
+}
+
+.cover__text {
+    z-index: 2;
+    position: absolute;
+    align-self: flex-start; 
+    display: inline-block;
+    top: 667px;
+    right: 385px;
+    bottom: 62px;
+    left: 78px;
+    background: transparent;
+    height: 28px;
+    width: 637px;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cover__button {
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    top: 655px;
+    right: 50px;
+    bottom: 51px;
+    left: 794px;
+    background: transparent;
+    color: white;
+    width: 256px;
+    height: 51px;
+    text-transform: uppercase;
+    border: 1px;
+    border-style: solid;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+
+
+.lots {
+    margin-top: 172px;
+}
