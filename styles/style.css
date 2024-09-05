@@ -75,18 +75,34 @@ header {
     color: white;
     text-transform: uppercase;
     font-size: 100px;
+    letter-spacing: 0.3em;
 }
 
 .cover__title__span {
     background: transparent;
-    letter-spacing
+    letter-spacing: 0.6em;
 
 }
+
+.cover__title__row__one {
+    background: transparent;
+}
+
+.cover__title__row__two {
+    background: transparent;
+    margin-left: 336px;
+    margin-right: 395 px;
+}
+
+.cover__title__row__three {
+    background: transparent;
+    margin-left: 663px;
+}
+
 
 .cover__text {
     z-index: 2;
     position: absolute;
-    align-self: flex-start; 
     display: inline-block;
     top: 667px;
     right: 385px;
