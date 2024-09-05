@@ -1,1 +1,45 @@
-/* место для вашего кода */
+
+header {
+    height: 105px;
+    margin-top: 92px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: aqua;
+    display: flex;                          /* ФЛЕКС КОНТЕЙНЕР */
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.image-container {
+    display: block;
+    background-image: url("../images/cover.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 757px;
+}
+
+.header__menu {
+    font-size: 18px;
+    font-style: normal;
+    flex-wrap: nowrap;
+}
+
+
+.header__logo {
+    height:105px;
+    width: 148px;
+}
+
+.header__address {
+    font-size: 18px;
+    font-style: normal;
+    display: inline-block;
+    width: 240px;
+}
+
+
+.header__menu__li {
+    display: inline;
+}
+
