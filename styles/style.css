@@ -1,10 +1,16 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 
 header {
+    position: relative;
     height: 105px;
     margin-top: 92px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 96px;
+    padding-top: 8px;
     background-color: aqua;
     display: flex;                          /* ФЛЕКС КОНТЕЙНЕР */
     flex-direction: row;
@@ -13,29 +19,34 @@ header {
 }
 
 .header__menu {
+    display: flex;
     font-size: 18px;
     font-style: normal;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 }
 
 
 .header__logo {
     height:105px;
     width: 148px;
+    position: absolute;
+    margin-left: 453px;
+    margin-top: -8px;
 }
 
 .header__address {
+    display: flex;
     font-size: 18px;
     font-style: normal;
-    display: inline-block;
     width: 240px;
+    position: absolute;
+    margin-left: 790px;
+
 }
 
-
-.header__menu__li {
-    display: inline;
+.address__ul__style {
+    row-gap: 10px;
 }
-
 
 
 /* ОНО ТЕБЕ НАДО */
@@ -45,6 +56,7 @@ header {
 .landing__page {
     display: flex;
     position: relative;
+    background-position: center;
     min-height: 757px;
     width: 1100px;
     background-image: url("../images/cover.jpg");
@@ -76,7 +88,9 @@ header {
     text-transform: uppercase;
     font-size: 100px;
     letter-spacing: 0.3em;
+    
 }
+
 
 .cover__title__span {
     background: transparent;
@@ -86,17 +100,22 @@ header {
 
 .cover__title__row__one {
     background: transparent;
+    
 }
 
 .cover__title__row__two {
+    display: block;
     background: transparent;
-    margin-left: 336px;
-    margin-right: 395 px;
+    margin-left: 286px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .cover__title__row__three {
+    display:block;
     background: transparent;
-    margin-left: 663px;
+    margin-top: -115px;
+    margin-left: 584px;
 }
 
 
@@ -105,15 +124,14 @@ header {
     position: absolute;
     display: inline-block;
     top: 667px;
-    right: 385px;
     bottom: 62px;
     left: 78px;
     background: transparent;
     height: 28px;
-    width: 637px;
     font-size: 22px;
     color: white;
     text-transform: uppercase;
+    word-spacing: 18.5px;
 }
 
 .cover__button {
@@ -126,7 +144,6 @@ header {
     left: 794px;
     background: transparent;
     color: white;
-    width: 256px;
     height: 51px;
     text-transform: uppercase;
     border: 1px;
@@ -136,6 +153,9 @@ header {
 
 }
 
+
+
+/* ЛОТЫ */
 
 
 .lots {
