@@ -10,8 +10,8 @@ header {
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 96px;
-    padding-top: 8px;
-    background-color: aqua;
+    padding-top: 4px;
+    /* background-color: aqua; */
     display: flex;                          /* ФЛЕКС КОНТЕЙНЕР */
     flex-direction: row;
     align-items: center;
@@ -20,9 +20,17 @@ header {
 
 .header__menu {
     display: flex;
+    height: 22px;
     font-size: 18px;
     font-style: normal;
-    /* flex-wrap: nowrap; */
+}
+
+ul.header__menu__ul { 
+    display: flex;
+    text-align: center;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 25px;
 }
 
 
@@ -31,23 +39,27 @@ header {
     width: 148px;
     position: absolute;
     margin-left: 453px;
-    margin-top: -8px;
+    margin-top: -4px;
 }
 
 .header__address {
     display: flex;
     font-size: 18px;
     font-style: normal;
-    width: 240px;
     position: absolute;
-    margin-left: 790px;
+    margin-left: 788px;
 
 }
 
-.address__ul__style {
+ul.header__address__ul {
+    list-style-type: none;
+}
+
+/*
+.header__address__ul {
     row-gap: 10px;
 }
-
+*/
 
 /* ОНО ТЕБЕ НАДО */
 
@@ -160,4 +172,45 @@ header {
 
 .lots {
     margin-top: 172px;
+}
+
+
+
+
+
+
+
+footer {
+    position: relative;
+    height: 98px;
+    margin-top: 92px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 96px;
+    padding-top: 4px;
+    background-color: aqua;
+    display: flex;                          /* ФЛЕКС КОНТЕЙНЕР */
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.footer__address {
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.footer__menu {
+    position: absolute;
+    font-size: 18px;
+    font-style: normal;
+    margin-left: 450px;
+}
+
+ul.footer__menu__ul {
+    text-align: center;
+    list-style-type: none;
 }
