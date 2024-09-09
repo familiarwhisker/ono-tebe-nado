@@ -16,6 +16,7 @@ header {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    gap: 40px;
 }
 
 .header__menu {
@@ -27,7 +28,7 @@ header {
     margin-left: 26px;
 }
 
-ul.header__menu__ul { 
+ul.header__menu__ul {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 27px;
@@ -38,9 +39,8 @@ ul.header__menu__ul {
 .header__logo {
     height: 105px;
     width: 148px;
-    position: absolute;
-    margin-left: 453px;
-    margin-top: -4px;
+    justify-self: center;
+    align-self: center;
 }
 
 .header__address {
@@ -342,7 +342,7 @@ footer {
     margin-right: 24px;
     margin-bottom: 96px;
     padding-top: 4px;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
