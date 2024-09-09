@@ -171,7 +171,6 @@ ul.header__address__ul {
 
 .lots {
     margin-top: 179px;
-    max-height: 692px;
 }
 
 .section__title__lots {
@@ -198,6 +197,8 @@ ul.header__address__ul {
     background-size: cover;
     background-position: 50%;
     position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 .lots__card__one::after {
@@ -250,7 +251,7 @@ ul.header__address__ul {
 .lots__heading {
     position: relative;
     z-index: 1;
-    display: block;
+    display: inline-block;
     background: transparent;
     font-size: 22px;
     text-transform: uppercase;
@@ -259,10 +260,25 @@ ul.header__address__ul {
     margin-top: 51px;
     margin-left: 40px;
     margin-right: 40px;
+    
 }
 
+.lots__text {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 48px;
+    background: transparent;
+    grid-row: 2;
+    align-self: end;
 
-
+}
 
 
 
