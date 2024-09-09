@@ -31,7 +31,7 @@ header {
 ul.header__menu__ul {
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 27px;
+    column-gap: 26px;
     list-style-type: circle;
     letter-spacing: 0.02em;
 }
@@ -49,6 +49,7 @@ ul.header__menu__ul {
     font-style: normal;
     position: absolute;
     margin-left: 788px;
+    line-height: 24px;
 
 }
 
