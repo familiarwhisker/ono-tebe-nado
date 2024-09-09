@@ -185,7 +185,7 @@ ul.header__address__ul {
 }
 
 .lots__card__one {
-    background-image: url(./images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-position: 50%;
     position: relative;
@@ -205,7 +205,7 @@ ul.header__address__ul {
 }
 
 .lots__card__two {
-    background-image: url(./images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     background-position: 50%;
     position: relative;
@@ -225,7 +225,7 @@ ul.header__address__ul {
 }
 
 .lots__card__three {
-    background-image: url(./images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
     background-position: 50%;
     position: relative;
