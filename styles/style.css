@@ -17,6 +17,7 @@ header {
     align-items: center;
     align-content: center;
     gap: 40px;
+    text-underline-offset: 4px;
 }
 
 .header__menu {
@@ -55,6 +56,7 @@ ul.header__menu__ul {
 
 ul.header__address__ul {
     list-style-type: none;
+    width: 220px;
 }
 
 /* Styles ОНО ТЕБЕ НАДО */
@@ -161,6 +163,7 @@ ul.header__address__ul {
 
 .lots {
     margin-top: 179px;
+    text-underline-offset: 4px;
 }
 
 .section__title__lots {
@@ -338,15 +341,14 @@ ul.header__address__ul {
 footer {
     position: relative;
     height: 98px;
-    margin-top: 162px;
+    margin-top: 182px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 96px;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
+    text-underline-offset: 4px;
+    
 }
 
 .footer__address {
@@ -359,7 +361,7 @@ footer {
     position: absolute;
     font-size: 18px;
     font-style: normal;
-    margin-left: 452px;
+    margin-left: 425px;
 }
 
 ul.footer__menu__ul {
@@ -368,15 +370,14 @@ ul.footer__menu__ul {
 }
 
 .footer__media {
-    display: flex;
-    margin-top: 175px;
-    margin-left: 558px;
+    align-self: center;
 }
 
 ul.footer__media__ul {
     display: grid;
     grid-template-columns: 48px 48px 48px;
-    grid-template-rows: 48px 48px 48px;
+    grid-template-rows: auto;
     gap: 48px;
     list-style-type: none;
+    padding-bottom: 50px;
 }

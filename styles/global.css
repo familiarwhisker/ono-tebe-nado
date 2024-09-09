@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  background-color: rgb(181, 180, 178);
 }
 
 body {
