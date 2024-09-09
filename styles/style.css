@@ -29,9 +29,10 @@ header {
 
 ul.header__menu__ul { 
     display: grid;
-    grid-template-columns: 67px 169px 129px;
-    gap: 12px;
+    grid-template-columns: auto auto auto;
+    column-gap: 27px;
     list-style-type: circle;
+    letter-spacing: 0.02em;
 }
 
 .header__logo {
@@ -353,6 +354,7 @@ footer {
     font-style: normal;
     margin-left: 26px;
     margin-top: 30px;
+    line-height: 24px;
 }
 
 .footer__menu {
