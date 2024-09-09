@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
   }
 
+/* Styles Header */
 
 header {
     position: relative;
@@ -33,7 +34,6 @@ ul.header__menu__ul {
     list-style-type: circle;
 }
 
-
 .header__logo {
     height: 105px;
     width: 148px;
@@ -55,11 +55,7 @@ ul.header__address__ul {
     list-style-type: none;
 }
 
-
-
-/* ОНО ТЕБЕ НАДО */
-
-
+/* Styles ОНО ТЕБЕ НАДО */
 
 .landing__page {
     display: flex;
@@ -83,7 +79,6 @@ ul.header__address__ul {
     position: absolute;
 }
 
-
 .cover__title {
     height: 355px;
     width: 1000px;
@@ -101,7 +96,6 @@ ul.header__address__ul {
     letter-spacing: 0.3em;
     
 }
-
 
 .cover__title__span {
     background: transparent;
@@ -129,11 +123,9 @@ ul.header__address__ul {
     margin-left: 584px;
 }
 
-
 .cover__text {
     z-index: 1;
     position: absolute;
-    display: inline-block;
     top: 667px;
     bottom: 62px;
     left: 78px;
@@ -148,7 +140,6 @@ ul.header__address__ul {
 .cover__button {
     z-index: 1;
     position: absolute;
-    display: inline-block;
     top: 655px;
     right: 50px;
     bottom: 51px;
@@ -164,12 +155,7 @@ ul.header__address__ul {
 
 }
 
-
-
-
-/* ЛОТЫ */
-
-
+/* Styles ЛОТЫ */
 
 .lots {
     margin-top: 179px;
@@ -192,7 +178,6 @@ ul.header__address__ul {
     grid-template-columns: 334px 334px 334px;
 
 }
-
 
 .lots__card__one {
     background-image: url(/images/card-lot-01.jpg);
@@ -257,7 +242,6 @@ ul.header__address__ul {
 .lots__heading {
     position: relative;
     z-index: 1;
-    display: inline-block;
     background: transparent;
     font-size: 22px;
     text-transform: uppercase;
@@ -271,7 +255,6 @@ ul.header__address__ul {
 
 .lots__text {
     position: relative;
-    display: inline-block;
     z-index: 1;
     font-size: 20px;
     font-weight: 400;
@@ -292,14 +275,10 @@ ul.header__address__ul {
     font-size: 20px;
     margin-top: 30px;
     margin-left: 64px;
+    color: black;
 }
 
-
-
-
-
-/* ABOUT */
-
+/* Styles ABOUT */
 
 .about {
     margin-top: 148px;
@@ -346,22 +325,13 @@ ul.header__address__ul {
 
 .about__text {
     position: relative;
-    display: inline-block;
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;
     color: black;
 }
 
-
-
-
-
-
-
-/* FOOTER */
-
-
+/* Styles FOOTER */
 
 footer {
     position: relative;
@@ -396,7 +366,6 @@ ul.footer__menu__ul {
     text-align: center;
     list-style-type: none;
 }
-
 
 .footer__media {
     display: flex;
