@@ -38,17 +38,15 @@ ul.header__menu__ul {
 .header__logo {
     height: 105px;
     width: 148px;
-    align-self: center;
-    justify-self: center;
 }
 
 .header__address {
     display: flex;
     font-size: 18px;
     font-style: normal;
-    align-self: flex-end;
-    align-content: end;
     line-height: 24px;
+    padding-left: 150px;
+    padding-right: 45px;
 }
 
 ul.header__address__ul {
@@ -318,6 +316,7 @@ footer {
 .footer__menu {
     font-size: 18px;
     font-style: normal;
+    padding-left: 20px;
 }
 
 ul.footer__menu__ul {
