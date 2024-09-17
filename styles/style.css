@@ -16,7 +16,6 @@ header {
 .header__menu {
     display: flex;
     align-items: flex-start;
-    columns: ;
     font-size: 18px;
     font-style: normal;
     text-align: center;
