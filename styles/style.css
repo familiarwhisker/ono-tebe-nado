@@ -183,6 +183,7 @@ ul.address__ul {
     position: relative;
     display: grid;
     grid-template-rows: auto 1fr;
+    text-decoration: none;
 }
 
 .lots__card::after {
