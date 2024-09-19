@@ -48,19 +48,21 @@ ul.header__menu__ul {
     padding-right: 45px;
 }
 
-ul.header__address__ul {
+ul.address__ul {
     list-style-type: none;
     width: 220px;
 }
 
 /* Styles ОНО ТЕБЕ НАДО */
 
-.landing__page {
+.cover {
     position: relative;
     background-position: center;
-    height: 757px;
     width: 1100px;
-    padding: 164px 50px 200px;
+    padding-top: 164px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     background: url(../images/cover.jpg) no-repeat center / cover;
     display: grid;
     grid-template-columns: auto auto;
@@ -68,7 +70,7 @@ ul.header__address__ul {
     
 }
 
-.landing__page::after {
+.cover::after {
     content: "";
     display: block;
     width: 100%;
@@ -97,26 +99,27 @@ ul.header__address__ul {
     letter-spacing: 0.6em;
 }
 
-.cover__title__row__ono {
+.cover__title__row {
     display: block;
     background: transparent;
+}
+
+.align-text__left {
     text-align: left;
 }
 
-.cover__title__row__tebe {
-    display: block;
-    background: transparent;
+.align-text__center {
     padding-top: 10px;
     text-align: center;
 }
 
-.cover__title__row__nado {
-    display: block;
-    background: transparent;
+.align-text__right {
     padding-top: 3px;
     text-align: right;
     white-space: nowrap;
     float: right;
+    text-align: right;
+    white-space: nowrap;
 }
 
 .cover__title__span-no-spacing {
@@ -259,7 +262,7 @@ ul.header__address__ul {
 }
 
 .about__logo__bg {
-    background-color: black;
+    background-color: #000000;
     height: 240px;
     width: 240px;
     border-radius: 50%;
@@ -290,6 +293,9 @@ ul.header__address__ul {
     font-weight: 400;
     line-height: 120%;
     color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 /* Styles FOOTER */
